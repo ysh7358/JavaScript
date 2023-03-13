@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projectlogin.css">
+    <title>개인 프로젝트 로그인</title>
+</head>
+
+<body>
+    <div id="flex-wrap">
+        <p>
+            <div class="language">
+            <select name = "language"  style="width:95px;height:30px;">
+                        <option value="korean">한국어</option>
+                        <option value="english">영어</option>
+                        <option value="china">중국어</option>
+                        <option value="japan">일본어</option>
+                        </select>
+                    </div>
+            </p>
+           
+        <div class = naver><img src="K-001.png"></div>
+    </div>
+
+        <div class = "type">
+
+            <div class="nudge_banner" id="nudge_tooltip">
+                <span class="nudge_text">PC방 등 공용PC라면 QR코드 로그인이 더 안전해요. X</span>
+            </div>
+    
+            <div id="loinid" class="menu_id on" role="tab" aria-selected="true">
+                <span class="menu_text"><span class="text">ID 로그인</span></span>
+            </div>
+
+            <div id="ones" class="menu_ones" role="tab" aria-selected="false">
+                <span class="menu_text"><span class="text">일회용 번호</span></span>
+            </div>
+
+            <div id="qrcode" class="menu_qr" role="tab" aria-selected="false">
+                <span class="menu_text"><span class="text">QR코드</span></span>
+            </div>
+
+</div>
+<div class="panel_inner" role="tabpanel" aria-controls="loinid">
+    <div class="id_pw_wrap">
+        <div class="input_row" id="id_line">
+                    <span class="blind">아이디</span>
+            </div>
+        <div class="input_row" id="pw_line">
+                    <span class="blind">비밀번호</span>
+                </span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="login_keep_wrap" id="login_keep_wrap">
+        <div class="keep_check">
+            <input type="checkbox" id="keep" name="nvlong" class="input_keep" value="off">
+            <label for="keep" class="keep_text">로그인 상태 유지</label>
+        </div>
+        <div class = uziimg><img src="K-007.png"></div>
+        <div class="ip_check">
+           <span class="ip_text">IP보안</span>
+           <div class = ipimg><img src="K-005.png"></div>
+        </div>
+    </div>
+   
+    <div class="btn_login_wrap">
+
+        <button type="submit" class="btn_login" id="log.login">
+            <span class="btn_text">로그인</span>
+        </button>
+
+    </div>
+</div>
+ 
+    <div class = "menu">
+            <div style = "display:inline-block;">
+                비밀번호 찾기 ㅣ 아이디 찾기 ㅣ 회원가입
+            </div>
+    </div>
+
+    </div>
+    <div class="advertise">
+    <div><img src="K-002.jpg", style="width: 51%;"></div>
+    </div>
+</body>
+</html>
